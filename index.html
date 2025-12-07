@@ -1,0 +1,734 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width,initial-scale=1" />
+<title>USDT 즉시 판매 — 안전하고 신속한 거래</title>
+
+<!-- SEO / OG -->
+<meta name="description" content="USDT 빠른 판매 · 안전한 OTC 거래 · 실시간 환율 표시 · 24/7 상담" />
+<meta property="og:title" content="USDT 즉시 판매 — 안전하고 신속한 거래" />
+<meta property="og:description" content="USDT 빠른 판매 · 안전한 OTC 거래 · 실시간 환율 표시 · 24/7 상담" />
+<meta property="og:image" content="REPLACE_ME_SOCIAL_IMAGE_URL" />
+<meta property="og:type" content="website" />
+<meta name="twitter:card" content="summary_large_image">
+
+<!-- Replace with your canonical when deployed -->
+<link rel="canonical" href="REPLACE_ME_CANONICAL_URL" />
+
+<!-- Fonts -->
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700;800&display=swap" rel="stylesheet">
+
+<!-- Basic styles -->
+<style>
+:root{
+  --bg:#071021;
+  --card:#0b1630;
+  --neon-1:#00d4ff;
+  --neon-2:#6a5cff;
+  --accent:#ffb400;
+  --muted: rgba(223,233,242,0.75);
+  --glass: rgba(255,255,255,0.03);
+  --success: #28c76f;
+}
+*{box-sizing:border-box}
+html,body{height:100%;margin:0;font-family:Montserrat,system-ui,-apple-system,"Segoe UI",Roboto,"Noto Sans KR";background:linear-gradient(180deg,var(--bg) 0%, #0d2a44 100%);color:#dfe9f2;-webkit-font-smoothing:antialiased}
+.container{max-width:1200px;margin:0 auto;padding:28px}
+
+/* top */
+.topbar{display:flex;justify-content:space-between;align-items:center;gap:12px;margin-bottom:18px;flex-wrap:wrap}
+.brand{display:flex;align-items:center;gap:12px}
+.brand img{width:46px;height:46px;border-radius:8px}
+.lang-switch{display:flex;gap:8px}
+.lang-switch button{background:transparent;border:1px solid rgba(255,255,255,0.06);color:#fff;padding:6px 10px;border-radius:8px;cursor:pointer;font-weight:700}
+.lang-switch button.active{background:linear-gradient(90deg,var(--neon-1),var(--neon-2));color:#071021;border:none}
+
+/* hero */
+.hero{display:grid;grid-template-columns:1fr 420px;gap:28px;align-items:center;margin-bottom:26px}
+.hero-left h1{font-size:40px;margin:0 0 10px;color:transparent;background:linear-gradient(90deg,var(--neon-1),var(--neon-2));-webkit-background-clip:text}
+.hero-left p{margin:0 0 16px;color:var(--muted)}
+.cta-row{display:flex;gap:12px;flex-wrap:wrap}
+.btn-primary{background:linear-gradient(90deg,var(--accent),#ff8c00);border:none;padding:12px 20px;border-radius:12px;font-weight:800;color:#071021;cursor:pointer;box-shadow:0 10px 30px rgba(255,176,0,0.12)}
+.btn-ghost{background:transparent;border:1px solid rgba(255,255,255,0.08);padding:10px 16px;border-radius:12px;color:rgba(255,255,255,0.9);cursor:pointer}
+
+/* visual */
+.visual-wrap{display:flex;flex-direction:column;align-items:center;gap:12px}
+.coin{width:360px;height:360px;border-radius:50%;display:flex;align-items:center;justify-content:center;background:radial-gradient(circle at 30% 30%, rgba(0,212,255,0.06), rgba(106,92,255,0.04)), linear-gradient(180deg,#071427,#05102a);position:relative;box-shadow:0 30px 90px rgba(0,0,0,0.5);transform:translateY(0);transition:transform .6s}
+.coin:hover{transform:translateY(-6px)}
+.coin .inner{width:250px;height:250px;border-radius:50%;display:flex;align-items:center;justify-content:center;background:linear-gradient(135deg, rgba(0,212,255,0.04), rgba(106,92,255,0.02));backdrop-filter:blur(4px)}
+.coin img{width:120px;height:120px;filter:drop-shadow(0 10px 24px rgba(0,0,0,0.6))}
+
+
+/* badges */
+.badges{display:flex;gap:10px;margin-top:6px;flex-wrap:wrap}
+.badge{display:flex;align-items:center;gap:8px;padding:8px 12px;border-radius:999px;background:linear-gradient(90deg,rgba(255,255,255,0.02),transparent);border:1px solid rgba(255,255,255,0.03);font-weight:700;color:var(--accent)}
+
+/* sections */
+.section{margin:22px 0;padding:22px;border-radius:12px;background:linear-gradient(180deg, rgba(255,255,255,0.01), rgba(255,255,255,0.005));box-shadow:0 10px 30px rgba(0,0,0,0.5);border:1px solid rgba(255,255,255,0.02)}
+.row{display:flex;gap:14px;flex-wrap:wrap}
+.col{flex:1 1 0;min-width:0}
+
+/* rate cards */
+.rate-grid{display:flex;gap:12px;align-items:center;flex-wrap:wrap}
+.rate-card{background:linear-gradient(180deg, rgba(255,255,255,0.01), transparent);padding:12px;border-radius:10px;min-width:180px;display:flex;flex-direction:column;gap:6px;border:1px solid rgba(255,255,255,0.02)}
+.rate-amount{font-weight:800;color:#00e0ff;font-size:18px}
+.small-muted{font-size:13px;color:rgba(223,233,242,0.7)}
+
+/* trust badges + stats */
+.trust-row{display:flex;gap:12px;align-items:center;flex-wrap:wrap;margin-top:10px}
+.trust-card{padding:10px;border-radius:10px;background:linear-gradient(180deg, rgba(255,255,255,0.01), transparent);border:1px solid rgba(255,255,255,0.02);display:flex;flex-direction:column;align-items:center;min-width:160px}
+.trust-num{font-weight:800;color:var(--accent);font-size:18px}
+
+/* features */
+.features-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:12px;margin-top:12px}
+.feature{padding:14px;border-radius:10px;background:linear-gradient(180deg, rgba(255,255,255,0.01), transparent);border:1px solid rgba(255,255,255,0.02);min-height:120px}
+
+/* testimonials */
+.testimonials-container{overflow:hidden;position:relative;margin-top:6px}
+.testimonials-track{display:flex;transition:transform .6s cubic-bezier(.2,.8,.2,1);gap:12px}
+.testimonial{flex:0 0 33.333%;box-sizing:border-box}
+.card-test{position:relative;border-radius:12px;overflow:hidden;background:linear-gradient(180deg,#091428,#051026);padding:18px;min-height:200px;display:flex;flex-direction:column;align-items:center;justify-content:center;gap:10px;border:1px solid rgba(255,255,255,0.03);box-shadow:0 8px 30px rgba(0,0,0,0.5)}
+.avatar{width:64px;height:64px;border-radius:50%;border:3px solid var(--accent);object-fit:cover}
+.stars{color:#ffb400;font-size:15px}
+.quote{font-style:italic;color:rgba(223,233,242,0.9);text-align:center}
+.t-author{color:var(--accent);font-weight:700}
+
+/* testimonial controls */
+.test-controls{display:flex;justify-content:center;gap:8px;margin-top:12px}
+.test-controls button{background:transparent;border:1px solid rgba(255,255,255,0.06);padding:8px 12px;border-radius:8px;cursor:pointer;color:#fff}
+
+/* review header (avg rating + count + filters) */
+.review-header{display:flex;justify-content:space-between;align-items:center;gap:12px;flex-wrap:wrap;margin-bottom:10px}
+.avg-rating{display:flex;align-items:center;gap:10px}
+.rating-num{font-weight:900;font-size:20px;color:var(--accent)}
+.filter-group{display:flex;gap:8px;align-items:center}
+.filter-group button{background:transparent;border:1px solid rgba(255,255,255,0.06);padding:6px 10px;border-radius:8px;color:#fff;cursor:pointer}
+
+/* footer */
+.footer{display:flex;justify-content:space-between;align-items:center;gap:12px;flex-wrap:wrap;margin-top:18px;color:rgba(223,233,242,0.8)}
+
+/* floating CTA */
+.floating-chat{position:fixed;right:18px;bottom:18px;width:64px;height:64px;border-radius:50%;display:flex;align-items:center;justify-content:center;background:linear-gradient(90deg,var(--accent),#ff7a00);color:#071021;font-weight:800;box-shadow:0 14px 40px rgba(255,125,0,0.18);cursor:pointer;z-index:1000;transform:translateY(0);transition:transform .18s}
+.floating-chat:hover{transform:translateY(-8px)}
+
+/* modal basics */
+.modal-backdrop{position:fixed;inset:0;display:none;align-items:center;justify-content:center;background:rgba(2,8,20,0.6);z-index:2000}
+.modal{background:linear-gradient(180deg,#0b1530,#071027);padding:20px;border-radius:12px;width:min(520px,96%);border:1px solid rgba(255,255,255,0.03);box-shadow:0 20px 60px rgba(0,0,0,0.7)}
+.form-row{display:flex;gap:10px;flex-wrap:wrap}
+.input, .select {padding:10px;border-radius:8px;border:1px solid rgba(255,255,255,0.06);background:transparent;color:#fff;min-width:0}
+.input::placeholder{color:rgba(223,233,242,0.45)}
+
+/* lightbox */
+.lightbox{position:fixed;inset:0;display:none;align-items:center;justify-content:center;background:rgba(0,0,0,0.85);z-index:3000}
+.lightbox img{max-width:92%;max-height:92%;border-radius:10px}
+
+/* a/b test badge */
+.ab-badge{position:fixed;left:18px;bottom:18px;background:rgba(255,255,255,0.06);padding:8px 10px;border-radius:8px;font-size:13px;color:#fff}
+
+/* responsive */
+@media(max-width:980px){
+  .hero{grid-template-columns:1fr;gap:18px}
+  .visual-wrap{order:-1}
+  .coin{width:300px;height:300px}
+  .coin .inner{width:200px;height:200px}
+  .testimonial{flex:0 0 80%}
+}
+@media(max-width:520px){
+  .features-grid{grid-template-columns:1fr}
+  .rate-grid{flex-direction:column;align-items:flex-start}
+}
+</style>
+
+<!-- Google Analytics (gtag) -->
+<!-- Replace REPLACE_ME_GA_ID with your measurement ID (G-XXXX) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=REPLACE_ME_GA_ID"></script>
+<script>
+window.dataLayer = window.dataLayer || [];
+function gtag(){dataLayer.push(arguments);}
+gtag('js', new Date());
+gtag('config','REPLACE_ME_GA_ID', { 'send_page_view': true });
+// track custom events with gtag('event','action',{...})
+</script>
+
+<!-- Matomo (optional) -->
+<!-- To use Matomo, set MATOMO_URL and MATOMO_SITE_ID in server and replace below -->
+<!--
+<script>
+  var _paq = window._paq = window._paq || [];
+  _paq.push(['trackPageView']);
+  _paq.push(['enableLinkTracking']);
+  (function() {
+    var u="REPLACE_ME_MATOMO_URL/";
+    _paq.push(['setTrackerUrl', u+'matomo.php']);
+    _paq.push(['setSiteId', 'REPLACE_ME_SITE_ID']);
+    var d=document, g=d.createElement('script'), s=d.getElementsByTagName('script')[0];
+    g.async=true; g.src=u+'matomo.js'; s.parentNode.insertBefore(g,s);
+  })();
+</script>
+-->
+
+</head>
+<body>
+<div class="container" role="main">
+  <!-- TOP -->
+  <div class="topbar">
+    <div class="brand" aria-hidden="false">
+      <img src="https://cryptologos.cc/logos/tether-usdt-logo.png" alt="USDT logo">
+      <div>
+        <div style="font-weight:800" id="brandName">USDT 전문판매</div>
+        <div style="font-size:13px;color:var(--muted)" id="brandTag">안전 · 신속 · 검증</div>
+      </div>
+    </div>
+
+    <nav class="lang-switch" role="navigation" aria-label="Language">
+      <button id="lang-ko" class="active" onclick="setLang('ko')">KR</button>
+      <button id="lang-en" onclick="setLang('en')">EN</button>
+      <button id="lang-zh" onclick="setLang('zh')">中</button>
+    </nav>
+  </div>
+
+  <!-- HERO -->
+  <section class="hero" aria-labelledby="heroTitle">
+    <div class="hero-left">
+      <h1 id="heroTitle">Trusted USDT OTC Desk<strong>USDT</strong> 판매</h1>
+      <p id="heroDesc">즉시 입금 · 24시간 상담 · 검증된 전송 — 암호화폐 거래의 새로운 기준을 제시합니다.</p>
+
+      <div class="badges" aria-hidden="true">
+        <div class="badge">✔ 인증된 계좌</div>
+        <div class="badge">🔒 실시간 모니터링</div>
+        <div class="badge">⏱️ 즉시 입금</div>
+      </div>
+
+      <div class="cta-row" style="margin-top:12px">
+        <button class="btn-primary" id="btnConsult" onclick="openBookingModal()">상담 요청하기</button>
+        <button class="btn-ghost" id="btnFeature" onclick="document.getElementById('features').scrollIntoView({behavior:'smooth'})">서비스 살펴보기</button>
+      </div>
+
+      <!-- Trust statistics -->
+      <div class="trust-row" style="margin-top:14px">
+        <div class="trust-card">
+          <div style="font-size:12px;color:var(--muted)">거래 건수</div>
+          <div class="trust-num" id="stat-transactions">+2,346</div>
+        </div>
+        <div class="trust-card">
+          <div style="font-size:12px;color:var(--muted)">평균 평점</div>
+          <div class="trust-num" id="stat-rating">4.8/5</div>
+        </div>
+        <div class="trust-card">
+          <div style="font-size:12px;color:var(--muted)">응답 시간(평균)</div>
+          <div class="trust-num">~8분</div>
+        </div>
+      </div>
+    </div>
+
+    <div class="visual-wrap hero-right" aria-hidden="true">
+      <div class="coin" title="USDT">
+        <div class="inner"><img src="https://cryptologos.cc/logos/tether-usdt-logo.png" alt="USDT"></div>
+      </div>
+      <div style="display:flex;gap:8px">
+        <div style="font-size:12px;color:var(--muted)">보안</div>
+        <div style="font-size:12px;color:var(--muted)">SSL · 인증 KYC</div>
+      </div>
+    </div>
+  </section>
+
+  <!-- RATES -->
+  <section class="section" aria-labelledby="rateTitle">
+    <div style="display:flex;justify-content:space-between;align-items:center;gap:12px;flex-wrap:wrap">
+      <div>
+        <h3 id="rateTitle">실시간 환율 (USD → KRW)</h3>
+        <div class="small-muted" id="rateSub">매 1분마다 최신 환율 자동 갱신 — CoinGecko와 업무협약</div>
+      </div>
+
+      <div class="rate-grid" style="align-items:center;">
+        <div class="rate-card" aria-live="polite">
+          <div class="small-muted">환율 (USD → KRW)</div>
+          <div id="exchangeRate" class="rate-amount" data-value="0">불러오는 중...</div>
+        </div>
+
+        <div class="rate-card" aria-live="polite">
+          <div class="small-muted">USDT 가격 (USD)</div>
+          <div id="usdtUsd" class="rate-amount" data-value="0">불러오는 중...</div>
+        </div>
+
+        <div class="rate-card" aria-live="polite">
+          <div class="small-muted">USDT 가격 (KRW)</div>
+          <div id="usdtKrw" class="rate-amount" data-value="0">불러오는 중...</div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- FEATURES -->
+  <section id="features" class="section" aria-labelledby="featuresTitle">
+    <h3 id="featuresTitle">우리 서비스의 장점</h3>
+    <div class="features-grid" role="list">
+      <div class="feature" role="listitem">
+        <h4 id="safeTitle">안전한 거래</h4>
+        <p id="safeDesc">다단계 인증·출금/입금 로그 · 실시간 모니터링으로 자산을 안전하게 관리합니다.</p>
+      </div>
+      <div class="feature" role="listitem">
+        <h4 id="fastTitle">즉시 입금</h4>
+        <p id="fastDesc">입금 확인 즉시 전송 처리 — 은행 영업시간에 구애받지 않습니다.</p>
+      </div>
+      <div class="feature" role="listitem">
+        <h4 id="supportTitle">24시간 상담</h4>
+        <p id="supportDesc">전문 상담원이 텔레그램·카카오 등 선호 채널로 실시간 대응합니다.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- HOW -->
+  <section class="section" aria-labelledby="howTitle">
+    <h3 id="howTitle">간단한 구매 방법</h3>
+    <ol id="howList">
+      <li>상담 요청 → 거래 금액 및 입금 계좌 확인</li>
+      <li>입금 완료 → 실시간 입금 확인</li>
+      <li>USDT 전송 완료 → 거래 완료</li>
+    </ol>
+  </section>
+
+  <!-- TESTIMONIALS -->
+  <section class="section" aria-labelledby="reviewTitle">
+    <div class="review-header">
+      <div class="avg-rating">
+        <div class="rating-num" id="avgRatingDisplay">4.8</div>
+        <div style="color:var(--muted)">/5 (리뷰 <span id="totalReviews">5</span>건)</div>
+      </div>
+
+      <div class="filter-group" role="toolbar" aria-label="Filter reviews">
+        <div class="small-muted">필터:</div>
+        <button onclick="filterReviews('all')" class="filter-btn">전체</button>
+        <button onclick="filterReviews(5)" class="filter-btn">★★★★★</button>
+        <button onclick="filterReviews(4)" class="filter-btn">★★★★☆</button>
+        <button onclick="filterReviews(3)" class="filter-btn">★★★☆☆</button>
+      </div>
+    </div>
+
+    <h3 id="reviewTitle">고객 후기</h3>
+
+    <div class="testimonials-container" aria-live="polite">
+      <div class="testimonials-track" id="testimonialTrack">
+        <div class="testimonial" data-rating="5"><div class="card-test" tabindex="0"><img class="avatar" src="https://i.pravatar.cc/80?img=1" alt=""><div class="stars">★★★★★</div><div class="quote" id="quote1">빠르고 친절한 서비스로 안심하고 거래했습니다. 입금 확인도 정확했습니다.</div><div class="t-author" id="author1">- 김**</div></div></div>
+
+        <div class="testimonial" data-rating="4"><div class="card-test" tabindex="0"><img class="avatar" src="https://i.pravatar.cc/80?img=2" alt=""><div class="stars">★★★★☆</div><div class="quote" id="quote2">문의 후 10분 내로 처리됐어요. 추천합니다.</div><div class="t-author" id="author2">- 이**</div></div></div>
+
+        <div class="testimonial" data-rating="5"><div class="card-test" tabindex="0"><img class="avatar" src="https://i.pravatar.cc/80?img=3" alt=""><div class="stars">★★★★★</div><div class="quote" id="quote3">친절하고 신속한 처리, 믿을 수 있는 거래 경험이었습니다.</div><div class="t-author" id="author3">- 박**</div></div></div>
+
+        <div class="testimonial" data-rating="4"><div class="card-test" tabindex="0"><img class="avatar" src="https://i.pravatar.cc/80?img=4" alt=""><div class="stars">★★★★☆</div><div class="quote" id="quote4">상담부터 거래 완료까지 매우 만족했습니다.</div><div class="t-author" id="author4">- 최**</div></div></div>
+
+        <div class="testimonial" data-rating="5"><div class="card-test" tabindex="0"><img class="avatar" src="https://i.pravatar.cc/80?img=5" alt=""><div class="stars">★★★★★</div><div class="quote" id="quote5">빠른 입금과 친절한 안내 덕분에 안전하게 거래했습니다.</div><div class="t-author" id="author5">- 한**</div></div></div>
+      </div>
+    </div>
+
+    <div class="test-controls" role="group" aria-label="testimonial controls">
+      <button onclick="prevTestimonials()">◀ 이전</button>
+      <button onclick="nextTestimonials()">다음 ▶</button>
+    </div>
+
+    <!-- Review submission form (frontend) -->
+    <div style="margin-top:18px;">
+      <h4 style="margin:8px 0">후기 등록</h4>
+      <form id="reviewForm" onsubmit="handleReviewSubmit(event)" style="display:flex;gap:8px;flex-wrap:wrap">
+        <input id="rvName" class="input" placeholder="이름" required />
+        <select id="rvRating" class="select" required>
+          <option value="5">★★★★★</option>
+          <option value="4">★★★★☆</option>
+          <option value="3">★★★☆☆</option>
+        </select>
+        <input id="rvAvatar" class="input" placeholder="아바타 URL (선택)" />
+        <button class="btn-primary" type="submit">후기 제출</button>
+      </form>
+    </div>
+  </section>
+
+  <!-- FAQ -->
+  <section class="section" id="faq" aria-labelledby="faqTitle">
+    <h3 id="faqTitle">자주 묻는 질문</h3>
+    <div class="faq-list">
+      <details class="faq-item"><summary>입금 후 얼마나 걸리나요?</summary><div style="padding-top:8px;color:var(--muted)">입금 확인 즉시 USDT를 전송합니다. 은행 처리 시간은 은행별로 다릅니다.</div></details>
+      <details class="faq-item"><summary>수수료가 있나요?</summary><div style="padding-top:8px;color:var(--muted)">표준 요율(또는 프로모션 중 무료) — 상담 시 확정 안내드립니다.</div></details>
+      <details class="faq-item"><summary>주소를 잘못 보냈어요</summary><div style="padding-top:8px;color:var(--muted)">잘못된 주소로 전송하면 복구가 어렵습니다. 반드시 주소를 확인해주세요.</div></details>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer class="footer" role="contentinfo">
+    <div id="footerText">© 2025 USDT 전문판매 — 안전하고 신속한 거래</div>
+    <div id="footerContact">이메일: i02068912@gmail.com · 텔레그램: @COIN82820</div>
+  </footer>
+</div>
+
+<!-- floating CTA -->
+<button class="floating-chat" aria-label="Consultation" onclick="openBookingModal()">💬</button>
+
+<!-- Booking Modal (pre-filled consultation form) -->
+<div id="bookingModal" class="modal-backdrop" style="display:none;">
+  <div class="modal" role="dialog" aria-modal="true" aria-labelledby="bookingTitle">
+    <h3 id="bookingTitle" style="color:var(--neon-1);margin:0 0 12px">상담 요청</h3>
+    <div style="font-size:13px;color:var(--muted);margin-bottom:12px">아래 정보를 입력하시면 상담원이 확인 후 빠르게 연락드립니다.</div>
+    <form id="bookingForm" onsubmit="handleBooking(event)" style="display:flex;flex-direction:column;gap:10px">
+      <div class="form-row">
+        <input id="formAmount" class="input" placeholder="거래금액 (예: 1000)" type="number" min="1" required />
+        <select id="formCurrency" class="select">
+          <option value="USDT">USDT</option>
+          <option value="USD">USD</option>
+        </select>
+      </div>
+      <div class="form-row">
+        <input id="formName" class="input" placeholder="이름" required />
+        <input id="formPhone" class="input" placeholder="연락처 (전화번호 또는 카톡)" required />
+      </div>
+      <textarea id="formNote" class="input" placeholder="문의 내용 (선택)" style="min-height:80px;width:100%"></textarea>
+      <div style="display:flex;gap:10px;justify-content:flex-end">
+        <button class="btn-ghost" type="button" onclick="closeBookingModal()">취소</button>
+        <button class="btn-primary" type="submit">상담 요청 전송</button>
+      </div>
+    </form>
+  </div>
+</div>
+
+<!-- modal for simple choices -->
+<div id="modal" class="modal-backdrop" style="display:none;">
+  <div class="modal" role="dialog" aria-modal="true" style="max-width:320px;">
+    <h3 id="modalTitle" style="color:var(--neon-1);margin:0 0 12px">원하시는 상담 채널을 선택하세요</h3>
+    <div style="display:flex;flex-direction:column;gap:8px">
+      <button class="btn-ghost" onclick="openLink('https://t.me/COIN82820')">텔레그램 · @COIN82820</button>
+      <button class="btn-ghost" onclick="openLink('https://instagram.com/your_id')">인스타그램 · @your_id</button>
+      <button class="btn-ghost" onclick="openLink('tel:+000000000')">전화 연결 · +00 0000 0000</button>
+      <div style="display:flex;justify-content:flex-end;margin-top:8px"><button class="btn-ghost" onclick="closeModal()">닫기</button></div>
+    </div>
+  </div>
+</div>
+
+<!-- Lightbox for images -->
+<div id="lightbox" class="lightbox" role="dialog" aria-modal="true" onclick="closeLightbox()">
+  <img id="lightboxImg" src="" alt="확대 이미지" />
+</div>
+
+<!-- A/B badge -->
+<div class="ab-badge" id="abBadge">A/B: v1 (default)</div>
+
+<script>
+/* ========== CONFIG ========== */
+/* Replace these with real values in production */
+const CONFIG = {
+  TELEGRAM_USERNAME: 'coin82820', // without @
+  GA_ID: 'REPLACE_ME_GA_ID',          // used earlier in gtag script
+  MATOMO_URL: '',                     // optional
+  MATOMO_SITE_ID: '',
+  REVIEW_POST_ENDPOINT: '/api/review',     // server route below (optional)
+  BOOKING_POST_ENDPOINT: '/api/booking'    // server route below (optional)
+};
+
+/* Basic helpers */
+function openLink(url){ window.open(url, '_blank'); }
+
+/* ========== TRANSLATIONS ========== */
+const translations = {
+  ko: { /* same content as earlier - trimmed for brevity in code block; will set via setLang below */ },
+  en: { /* ... */ },
+  zh: { /* ... */ }
+};
+/* For brevity: reuse the translation objects from previous step.
+   (When deploying, ensure translations object is populated as in earlier versions.)
+   We'll dynamically set text content by id below.
+*/
+
+/* ---------- SIMPLE TRANSLATION LOADER (populates only existing ids) ---------- */
+/* For this delivered file, to keep it compact, we'll create translations programmatically: */
+const T = {
+  ko: {
+    brandName: "USDT 전문판매",
+    brandTag: "안전 · 신속 · 검증",
+    heroTitle: "미래형 거래, 빠르고 안전한 USDT 판매",
+    heroDesc: "즉시 입금 · 24시간 상담 · 검증된 전송 — 암호화폐 거래의 새로운 기준을 제시합니다.",
+    btnConsult: "상담 요청하기",
+    btnFeature: "서비스 살펴보기",
+    rateTitle: "실시간 환율 (USD → KRW)",
+    rateSub: "매 1분마다 최신 환율 자동 갱신 — CoinGecko의 라이센스 제공",
+    featuresTitle: "우리 서비스의 장점",
+    safeTitle: "안전한 거래",
+    fastTitle: "즉시 입금",
+    supportTitle: "24시간 상담",
+    howTitle: "간단한 구매 방법",
+    reviewTitle: "고객 후기",
+    reviewSubmit: "후기 제출",
+    footerText: "© 2025 USDT 전문판매 — 안전하고 신속한 거래",
+    footerContact: "이메일: SaraBecker629@int.pl · 텔레그램: @COIN82820",
+    modalTitle: "원하시는 상담 채널을 선택하세요",
+    bookingTitle: "상담 요청",
+    faqTitle: "자주 묻는 질문"
+  },
+  en: {
+    brandName: "USDT Professional Exchange",
+    brandTag: "Secure · Fast · Verified",
+    heroTitle: "Next-gen trading — fast & secure USDT sale",
+    heroDesc: "Instant deposit · 24/7 support · verified transfers — setting new standards in crypto trading.",
+    btnConsult: "Request Consultation",
+    btnFeature: "Explore Services",
+    rateTitle: "Live Exchange Rate (USD → KRW)",
+    rateSub: "Rates refresh every minute — CoinGecko + ER-API",
+    featuresTitle: "Advantages of Our Service",
+    safeTitle: "Secure Transactions",
+    fastTitle: "Instant Deposit",
+    supportTitle: "24/7 Support",
+    howTitle: "Simple Purchase Steps",
+    reviewTitle: "Customer Reviews",
+    reviewSubmit: "Submit Review",
+    footerText: "© 2025 USDT OTC Sale — Safe & Fast Trading",
+    footerContact: "Email: SaraBecker629@int.pl · Telegram: @coin82820",
+    modalTitle: "Choose your preferred consultation channel",
+    bookingTitle: "Request Consultation",
+    faqTitle: "FAQ"
+  },
+  zh: {
+    brandName: "USDT 专业兑换",
+    brandTag: "安全 · 快速 · 已验证",
+    heroTitle: "未来交易 — 快速且安全的 USDT 出售",
+    heroDesc: "即时入金 · 24小时支持 · 交易验证 — 为加密货币交易设定新标准。",
+    btnConsult: "请求咨询",
+    btnFeature: "查看服务",
+    rateTitle: "实时汇率 (USD → KRW)",
+    rateSub: "每分钟刷新 — CoinGecko + ER-API",
+    featuresTitle: "我们的服务优势",
+    safeTitle: "安全交易",
+    fastTitle: "即时入金",
+    supportTitle: "24小时支持",
+    howTitle: "简单购买流程",
+    reviewTitle: "客户评价",
+    reviewSubmit: "提交评价",
+    footerText: "© 2025 USDT 专业兑换 — 安全快速的交易",
+    footerContact: "邮箱: SaraBecker629@int.pl · Telegram: @coin82820",
+    modalTitle: "请选择您希望的咨询渠道",
+    bookingTitle: "请求咨询",
+    faqTitle: "常见问题"
+  }
+};
+
+let currentLang = 'ko';
+function setLang(lang){
+  currentLang = lang;
+  document.querySelectorAll('.lang-switch button').forEach(b=>b.classList.remove('active'));
+  const btn = document.getElementById('lang-' + lang);
+  if(btn) btn.classList.add('active');
+  const t = T[lang];
+  // map keys to elements if exist
+  if(document.getElementById('brandName')) document.getElementById('brandName').textContent = t.brandName;
+  if(document.getElementById('brandTag')) document.getElementById('brandTag').textContent = t.brandTag;
+  if(document.getElementById('heroTitle')) document.getElementById('heroTitle').textContent = t.heroTitle;
+  if(document.getElementById('heroDesc')) document.getElementById('heroDesc').textContent = t.heroDesc;
+  if(document.getElementById('btnConsult')) document.getElementById('btnConsult').textContent = t.btnConsult;
+  if(document.getElementById('btnFeature')) document.getElementById('btnFeature').textContent = t.btnFeature;
+  if(document.getElementById('rateTitle')) document.getElementById('rateTitle').textContent = t.rateTitle;
+  if(document.getElementById('rateSub')) document.getElementById('rateSub').textContent = t.rateSub;
+  if(document.getElementById('featuresTitle')) document.getElementById('featuresTitle').textContent = t.featuresTitle;
+  if(document.getElementById('howTitle')) document.getElementById('howTitle').textContent = t.howTitle;
+  if(document.getElementById('reviewTitle')) document.getElementById('reviewTitle').textContent = t.reviewTitle;
+  if(document.getElementById('footerText')) document.getElementById('footerText').textContent = t.footerText;
+  if(document.getElementById('footerContact')) document.getElementById('footerContact').textContent = t.footerContact;
+  if(document.getElementById('modalTitle')) document.getElementById('modalTitle').textContent = t.modalTitle;
+  if(document.getElementById('bookingTitle')) document.getElementById('bookingTitle').textContent = t.bookingTitle;
+  if(document.getElementById('faqTitle')) document.getElementById('faqTitle').textContent = t.faqTitle;
+}
+// init lang
+setLang(currentLang);
+
+/* ========== RATES: ER-API + CoinGecko ========== */
+/* animate number helper */
+function animateNumber(el, toValue, options = {}){
+  const start = Number(el.dataset.value) || 0;
+  const end = Number(toValue);
+  el.dataset.value = end;
+  const duration = options.duration || 700;
+  const suffix = options.suffix || el.dataset.suffix || '';
+  const startTime = performance.now();
+  function step(now){
+    const t = Math.min(1,(now-startTime)/duration);
+    const eased = 1 - Math.pow(1-t,3);
+    const val = start + (end - start) * eased;
+    if(Math.abs(end - start) < 10 && end % 1 !== 0){
+      el.textContent = (Math.round(val * 100)/100).toLocaleString() + suffix;
+    } else {
+      el.textContent = Math.round(val).toLocaleString() + suffix;
+    }
+    if(t < 1) requestAnimationFrame(step);
+  }
+  requestAnimationFrame(step);
+}
+
+async function fetchRates(){
+  try{
+    const r = await fetch('https://open.er-api.com/v6/latest/USD');
+    const j = await r.json();
+    if(j && j.rates && j.rates.KRW){
+      const krw = j.rates.KRW;
+      const el = document.getElementById('exchangeRate');
+      el.dataset.suffix = ' KRW';
+      animateNumber(el, Math.round(krw));
+    } else {
+      document.getElementById('exchangeRate').textContent = '환율 정보를 불러올 수 없습니다.';
+    }
+  }catch(e){
+    document.getElementById('exchangeRate').textContent = '환율 정보를 불러올 수 없습니다.';
+  }
+
+  // CoinGecko USDT price
+  try{
+    const p = await fetch('https://api.coingecko.com/api/v3/simple/price?ids=tether&vs_currencies=usd,krw');
+    const pj = await p.json();
+    if(pj && pj.tether){
+      const usd = pj.tether.usd || 1;
+      const krwPrice = pj.tether.krw || (usd * (Number(document.getElementById('exchangeRate').dataset.value || 1300)));
+      animateNumber(document.getElementById('usdtUsd'), Math.round(usd*100)/100, {suffix:' USD'});
+      animateNumber(document.getElementById('usdtKrw'), Math.round(krwPrice), {suffix:' KRW'});
+    } else {
+      document.getElementById('usdtUsd').textContent='N/A';
+      document.getElementById('usdtKrw').textContent='N/A';
+    }
+  }catch(e){
+    document.getElementById('usdtUsd').textContent='불러오기 실패';
+    document.getElementById('usdtKrw').textContent='불러오기 실패';
+  }
+}
+fetchRates();
+setInterval(fetchRates,60000);
+
+/* ========== REVIEWS: stats, submit, filter, lightbox ========== */
+function computeReviewStats(){
+  const cards = Array.from(document.querySelectorAll('.testimonial')).filter(c=>c.style.display !== 'none');
+  const ratings = cards.map(c => Number(c.dataset.rating || 5));
+  const total = ratings.length;
+  const avg = (ratings.reduce((a,b)=>a+b,0)/total) || 0;
+  document.getElementById('avgRatingDisplay').textContent = (Math.round(avg*10)/10).toFixed(1);
+  document.getElementById('totalReviews').textContent = total;
+  document.getElementById('stat-rating').textContent = (Math.round(avg*10)/10) + '/5';
+}
+computeReviewStats();
+
+function filterReviews(value){
+  const cards = Array.from(document.querySelectorAll('.testimonial'));
+  cards.forEach(c=>{
+    const r = Number(c.dataset.rating || 5);
+    if(value === 'all' || r === Number(value)) c.style.display = '';
+    else c.style.display = 'none';
+  });
+  // reset slider
+  currentTestIndex = 0;
+  updateSlider();
+  computeReviewStats();
+}
+
+/* lightbox */
+function openLightbox(src){ document.getElementById('lightboxImg').src = src; document.getElementById('lightbox').style.display = 'flex'; }
+function closeLightbox(){ document.getElementById('lightbox').style.display = 'none'; }
+document.addEventListener('click', e=>{ if(e.target.classList.contains('avatar')) openLightbox(e.target.src); });
+
+/* review submit (front-end -> server optional) */
+async function handleReviewSubmit(e){
+  e.preventDefault();
+  const name = document.getElementById('rvName').value || '익명';
+  const rating = document.getElementById('rvRating').value || 5;
+  const avatar = document.getElementById('rvAvatar').value || `https://i.pravatar.cc/80?u=${Math.random().toString(36).slice(2,7)}`;
+  // create client-side card
+  const track = document.getElementById('testimonialTrack');
+  if(!track) return alert('트랙이 없습니다.');
+  const div = document.createElement('div');
+  div.className = 'testimonial';
+  div.dataset.rating = rating;
+  div.innerHTML = `<div class="card-test" tabindex="0"><img class="avatar" src="${avatar}" alt=""><div class="stars">${'★'.repeat(rating)}${'☆'.repeat(5-rating)}</div><div class="quote">${name}님의 후기가 등록되었습니다.</div><div class="t-author">${name}</div></div>`;
+  track.appendChild(div);
+  computeReviewStats();
+  // optional: post to server
+  try{
+    await fetch(CONFIG.REVIEW_POST_ENDPOINT,{method:'POST',headers:{'Content-Type':'application/json'},body:JSON.stringify({name, rating, avatar})});
+  }catch(err){
+    // ignore; server optional
+  }
+  alert((currentLang==='en')? 'Thanks for your review!' : (currentLang==='zh')? '感谢您的评价！' : '후기 감사합니다!');
+  e.target.reset();
+}
+
+/* ========== TESTIMONIAL SLIDER ========== */
+const track = document.getElementById('testimonialTrack');
+let currentTestIndex = 0;
+function updateSlider(){
+  const visibles = Array.from(track.children).filter(c=>c.style.display !== 'none');
+  const totalVisible = visibles.length;
+  if(totalVisible <= 3){ track.style.transform = 'translateX(0%)'; return; }
+  const percent = currentTestIndex * (100/3);
+  track.style.transform = `translateX(-${percent}%)`;
+}
+function nextTestimonials(){ const visibles = Array.from(track.children).filter(c=>c.style.display!=='none'); if(visibles.length <= 3) return; currentTestIndex = (currentTestIndex + 1) % (visibles.length - 2); updateSlider(); }
+function prevTestimonials(){ const visibles = Array.from(track.children).filter(c=>c.style.display!=='none'); if(visibles.length <= 3) return; currentTestIndex = (currentTestIndex - 1 + (visibles.length - 2)) % (visibles.length - 2); updateSlider(); }
+let autoTest = setInterval(nextTestimonials,4500);
+document.querySelectorAll('.testimonials-container').forEach(el=>{ el.addEventListener('mouseenter', ()=>clearInterval(autoTest)); el.addEventListener('mouseleave', ()=>autoTest = setInterval(nextTestimonials,4500)); });
+
+/* ========== BOOKING FORM ========== */
+function openBookingModal(){ document.getElementById('bookingModal').style.display = 'flex'; }
+function closeBookingModal(){ document.getElementById('bookingModal').style.display = 'none'; }
+async function handleBooking(e){
+  e.preventDefault();
+  const amount = document.getElementById('formAmount').value;
+  const currency = document.getElementById('formCurrency').value;
+  const name = document.getElementById('formName').value;
+  const phone = document.getElementById('formPhone').value;
+  const note = document.getElementById('formNote').value;
+  if(!amount || !phone){ alert('필수 항목을 입력해주세요.'); return; }
+
+  // send to server (if provided)
+  const payload = {amount, currency, name, phone, note, lang: currentLang, timestamp: new Date().toISOString()};
+  try{
+    const res = await fetch(CONFIG.BOOKING_POST_ENDPOINT,{method:'POST',headers:{'Content-Type':'application/json'},body:JSON.stringify(payload)});
+    if(res.ok){
+      alert((currentLang==='en')? 'Booking request sent!' : (currentLang==='zh')? '请求已发送！' : '상담 요청이 전송되었습니다.');
+    } else {
+      // fallback: open telegram link with prefilled text
+      throw new Error('server fail');
+    }
+  }catch(err){
+    const text = encodeURIComponent(`상담요청\n이름: ${name}\n금액: ${amount} ${currency}\n연락처: ${phone}\n메모: ${note}`);
+    window.open(`https://t.me/${CONFIG.TELEGRAM_USERNAME}?text=${text}`, '_blank');
+    alert('서버 응답이 없습니다. 텔레그램으로 상담 링크를 엽니다.');
+  } finally {
+    closeBookingModal();
+  }
+}
+
+/* ========== GENERIC MODAL ========== */
+function openModal(){ document.getElementById('modal').style.display = 'flex'; }
+function closeModal(){ document.getElementById('modal').style.display = 'none'; }
+
+/* ========== A/B TEST (simple) ========== */
+(function(){
+  // variation key in localStorage: 'ab_variant' -> 'v1' or 'v2'
+  let v = localStorage.getItem('ab_variant');
+  if(!v){ v = Math.random() < 0.5 ? 'v1' : 'v2'; localStorage.setItem('ab_variant', v); }
+  document.getElementById('abBadge').textContent = `A/B: ${v}`;
+  if(v === 'v2'){
+    // example: change CTA color for v2
+    document.querySelectorAll('.btn-primary').forEach(b => b.style.background = 'linear-gradient(90deg,#6a5cff,#00d4ff)');
+  }
+  // track with GA event
+  if(window.gtag) gtag('event','ab_variant',{ 'variant': v });
+})();
+
+/* ========== Analytics events (GA) wrappers ========== */
+function trackEvent(action,label=''){ if(window.gtag) gtag('event', action, {'event_category':'engagement','event_label':label}); }
+
+/* attach CTA tracking */
+document.querySelectorAll('.btn-primary').forEach(b => { b.addEventListener('click', ()=> trackEvent('cta_click', b.id || b.textContent.trim()) ); });
+
+/* ========== Init ========== */
+setLang(currentLang);
+/* safety: ESC closes modals/lightbox */
+document.addEventListener('keydown', (e)=>{ if(e.key === 'Escape'){ closeModal(); closeBookingModal(); closeLightbox(); } });
+
+/* responsive slider recalculation */
+window.addEventListener('resize', ()=> { track.style.transition = 'none'; setTimeout(()=> track.style.transition = 'transform .6s cubic-bezier(.2,.8,.2,1)', 50); });
+
+/* helper: simple debug */
+console.log('USDT Landing loaded');
+</script>
+</body>
+</html>
